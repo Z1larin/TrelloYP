@@ -24,6 +24,7 @@
     background-image: url(img/Rectangle\ 2.png);
     width: 1920px;
     height: 800px;
+    margin: auto;
 }
 .nav__text{
     list-style-type: none;
@@ -124,12 +125,14 @@
 .line-one{
     border: 3px solid #005BC1;
     width: 100px;
+    background-color: #005BC1;
 }
 .line-two{
     border: 3px solid #005BC1;
     width: 50px;
     margin-top: 13px;
     margin-left: 50px;
+    background-color: #005BC1;
 }
 .main__title{
     font-family: 'Oswald';
@@ -146,4 +149,141 @@
     border: 2px solid #005BC1;
     width: 55px;
     height: 55px;
+}
+.projects__photo{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.img__photo{
+    width: 540px;
+    height: 400px;
+}
+.info-photo{
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    width: 250px;
+    height: 110px;
+    margin-bottom: 50px;
+}
+.organization{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+}
+.photo{
+    position: relative;
+    z-index: -1;
+}
+.photo{
+    width: 540px;
+    height: 400px;
+}
+.info-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+}
+.title-photo{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.photo-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    margin-left: 25px;
+}
+.info-photo{
+    margin-top: 250px;
+    margin-left: 200px;
+}
+.product-catalog{
+    margin-top: 150px;
+}
+.production {
+	margin-bottom: 150px;
+	font-family: 'Oswald', Arial, sans-serif;
+}
+
+.production h2 {
+	margin-bottom: 75px;
+}
+.production-cards {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.production-card-item {
+	border: 3px solid #005BC1;
+	width: 350px;
+	height: 300px;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.production-card-item img {
+	position: relative;
+	width: 342px;
+	height: 294px;
+}
+
+.production-card-item div {
+	position: absolute;
+	bottom: 12px;
+	width: 265px;
+	height: 86px;
+	background: #005BC1;
+	display: flex;
+	align-items: center;
+	box-sizing: border-box;
+    margin-left: 85px;
+}	
+
+.production-card-item span {
+	font-size: 18px;
+	line-height: 27px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	margin:15px 20px;
+	margin-right: 25px;
+	color: #FFFFFF;
+	background: #005BC1;
+}
+
+.production-button {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 55px;
+	width: 213px;
+}
+
+.production-button-item {
+	font: inherit;
+	font-size: 24px;
+	line-height: 36px;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	
 }
