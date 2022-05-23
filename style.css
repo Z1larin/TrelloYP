@@ -21,7 +21,7 @@
     margin-bottom: 11px;
 }
 .header{
-    background-image: url(../../23.05.22/gh-pages/img/Rectangle\ 2.png);
+    background-image: url(img/Rectangle\ 2.png)
     width: 1920px;
     height: 800px;
 }
@@ -104,4 +104,46 @@
     height: 51px;
     border: 1px solid white;
     background-color: transparent;
+}
+.main{
+    margin-top: 174px;
+}
+.container{
+    margin: auto;
+    width: 1000px;
+}
+.main__projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+}
+.line-one{
+    border: 3px solid #005BC1;
+    width: 100px;
+}
+.line-two{
+    border: 3px solid #005BC1;
+    width: 50px;
+    margin-top: 13px;
+    margin-left: 50px;
+}
+.main__title{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 44px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+    margin-left: 40px;
+}
+.slider-menu__button{
+    border: 2px solid #005BC1;
+    width: 55px;
+    height: 55px;
 }
