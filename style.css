@@ -12,6 +12,7 @@
     Height:80px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 .logo{
     height: 58px;
@@ -66,8 +67,7 @@
     position: absolute;
     z-index: 1;
     margin-left: 595px;
-    margin-top: 282px;
-    margin-bottom: 376px;
+    margin-top: 222px;
     width: 570px;
 }
 .title__text{
@@ -86,6 +86,7 @@
     font-size: 16px;
     line-height: 22px;
     color: white;
+    margin-top: 40px;
 }
 .button__text{
     text-decoration: none;
@@ -99,9 +100,6 @@
     letter-spacing: 0.05em;
     text-decoration: none;
 }
-.button__text:hover{
-    color: black;
-}
 .button{
     margin-top: 40px;
     width: 160px;
@@ -110,7 +108,7 @@
     background-color: transparent;
 }
 .button:hover{
-    background-color: white;
+    background-color: black;
 }
 .main{
     margin-top: 174px;
@@ -155,6 +153,7 @@
     border: 2px solid #005BC1;
     width: 55px;
     height: 55px;
+    cursor: pointer;
 }
 .projects__photo{
     display: flex;
@@ -343,7 +342,7 @@
 .news{
     margin-top: 108px;
 }
-.button__text{
+.new-button__text{
     font-family: Open -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -397,7 +396,7 @@
 }
 .footer{
     background-color: #005BC1;
-    width: 1920px;
+    width: 100%;
     height: 255px;
     margin: auto;
     margin-top: 120px;
